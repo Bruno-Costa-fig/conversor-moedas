@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blue;
+}
+
+h1 {
+  margin-bottom: 1em;
+  color: #fff;
+  margin-top: 3em;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 2em;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.form input {
+  padding: 1em .3em;
+}
+
+#btnConverter {
+  padding: 1em 2em;
+}
+
+#resultado {
+  margin-top: 2em;
+  color: #fff;
+  font-size: 2em;
+}
